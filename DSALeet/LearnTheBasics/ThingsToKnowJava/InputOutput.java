@@ -11,6 +11,7 @@ public class InputOutput {
 		System.out.println("Enter the input number: ");
 		int num = sc.nextInt();
 		System.out.println("Output: "+num);
+		sc.close();
 	}
 
 }
