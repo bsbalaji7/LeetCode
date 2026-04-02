@@ -16,6 +16,8 @@ public class HighestOccurringElementInAnArray {
 		 int maxFreq = 0;
 		 int result = Integer.MAX_VALUE;
 		 
+		 
+		 //result
 		 for(int key : map.keySet()) {
 			 int freq = map.get(key);
 			 
