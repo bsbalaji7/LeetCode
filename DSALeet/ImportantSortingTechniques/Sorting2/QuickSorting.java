@@ -13,7 +13,7 @@ public class QuickSorting {
         int i = low;
 
         for (int j = low; j < high; j++) {
-            if (arr[j] < pivot) {   // ✅ FIXED
+            if (arr[j] < pivot) { 
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
